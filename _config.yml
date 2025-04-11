@@ -1,8 +1,7 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: A Guide to Git for Student Projects
+description: A website guide to using git for beginners, especially students working on projects or in groups for the first time. Made for an ENG331 assignment in Spring '25.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://guide-to-git.github.io/students-guide-to-git
+back_to_top: true
+back_to_top_text: "Back to top"
