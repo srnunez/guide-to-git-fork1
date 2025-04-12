@@ -4,7 +4,13 @@ parent: Basics
 nav_order: 2
 ---
 # Git Clone
-To start working on a project stored in a remote repository, you need to bring it to your computer. This is done using the `git clone` command, which creates a copy of the remote repository on your computer. This might sounds familiar - that's because this is your [local repository](https://sophia-nunez.github.io/guide-to-git/docs/basics/#terminology)! This will contain all of the giles and Git history for the project, allowing you to start making changes locally.
+{: .no_toc }
+To start working on a project stored in a remote repository, you need to bring it to your computer. This is done using the `git clone` command, which creates a copy of the remote repository on your computer. This might sounds familiar - that's because this is your [local repository](https://sophia-nunez.github.io/guide-to-git/docs/basics/#terminology)! This will contain all of the files and Git history for the project, allowing you to start making changes locally.
+
+- TOC
+{:toc}
+
+---
 
 ## How to Clone a Repository
 The command for cloning is:
@@ -16,14 +22,14 @@ git clone <repository-url>
 ### Getting the Repository URL
 The URL for a repository can be found on the GitHub page for the repository. In the "Code" tab near the top is a green box labeled **Code**, as pictured below.
 
-![Image depicting a Git repository, with the Code button used to get the URL for cloning circled in red](docs/images/Clone-code-button-1)
+![Image depicting a Git repository, with the Code button used to get the URL for cloning circled in red](/docs/images/Clone-code-button-1.png)
 * A repository on GitHub with the button used to get the cloning URL circled in red.*
 
 Clicking the dropdown arrow for this box opens a section that allows you to get the URL for the repository. 
 
 > Depending on the setup of your computer, you may be able to use different options such as *SSH*. However, this requires additional setup, so we recommed using *HTTPS* for now. If you'd like to learn how to set up an SSH key, check out our page for this at [SSH](https://sophia-nunez.github.io/guide-to-git/docs/advanced)!
 
-![Image depicting a Git repository, with the Clone menu expanded. The icon used to get the URL for cloning circled in red](docs/images/Clone-url-copy)
+![Image depicting a Git repository, with the Clone menu expanded. The icon used to get the URL for cloning circled in red](/docs/images/Clone-url-copy.png)
 * A repository on GitHub with the Clone URL menu expanded. The button used to copy the cloning URL is circled in red.*
 
 ### Using the Clone Command in Terminal
@@ -34,7 +40,7 @@ $ cd <filepath>
 $ git clone <URL>
 ```
 
-This should give output similar to the following:
+Running this command should give output similar to the following:
 
 ```terminal
 $ git clone https://github.com/sophia-nunez/guide-to-git.git
@@ -47,7 +53,7 @@ Receiving objects: 100% (62/62), 16.94 KiB | 495.00 KiB/s, done.
 Resolving deltas: 100% (18/18), done.
 ```
 
-This should create a new folder inside your current one named after the repository that was cloned. The latest version of all of the files in the remote repository should show up here!
+After running `git clone`, there should be a new folder inside your current one named after the repository that was cloned. The latest version of all of the files in the remote repository should show up here!
 
 ### Alternative uses of the URL
 In some IDEs, you may be able to clone using a built-in view or function. For more information on this, check out our page on [Git in IDEs](https://sophia-nunez.github.io/guide-to-git/docs/basics/)!
