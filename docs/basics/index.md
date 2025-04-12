@@ -4,6 +4,7 @@ layout: default
 nav_order: 2
 ---
 # Basics of Git
+{: .no_toc }
 Learn how use Git! Read below for an introduction to the Git environment, or look at our pages for each action you need to know.
 
 - TOC
