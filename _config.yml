@@ -5,3 +5,10 @@ theme: just-the-docs
 url: https://sophia-nunez/guide-to-git
 back_to_top: true
 back_to_top_text: "Back to top"
+
+defaults:
+- scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: home
