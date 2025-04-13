@@ -11,6 +11,35 @@ The `git pull` command combines fetching and merging - topics covered in our Adv
 
 You should always pull before starting to make changes and before pushing in order to reduce any conflicting edits.
 
+## Before Pulling
+If you've made changes to any code since you last pulled, you want to make sure to preserve your current revisions before pulling. This will prevent any overwriting or other issues.
+
+To do this, there are two options:
+
+### Commit Before Pulling
+This is the typical recommendation for saving your changes before pulling. Use `git commit` to take a snapshot of your files and prevent loss of data.
+
+In your terminal, this would use following commands:
+
+```terminal
+$ git add .
+$ git commit -m "message here"
+$ git pull
+```
+
+### Stash Before Pulling
+Another option is to stash your changes temporarily. This will not create a commit, so this is typically used when you've modified files but are not ready to include them in the version history. 
+
+Stashing will allow you to save your changes and pull without conflicts, overwriting any edits. Using `git stash pop`, you then add your modifications back on afterwards.
+
+In your terminal, this would use following commands:
+
+```terminal
+$ git stash
+$ git pull
+$ git stash pop
+```
+
 ## How to Pull
 To pull, run the following in your terminal:
 
