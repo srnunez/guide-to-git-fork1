@@ -28,7 +28,7 @@ The URL for a repository can be found on the GitHub page for the repository. In 
 Clicking the dropdown arrow for this box opens a section that allows you to get the URL for the repository. 
 
 {: .note }
-> Depending on the setup of your computer, you may be able to use different options such as *SSH*. However, this requires additional setup, so we recommed using *HTTPS* for now. If you'd like to learn how to set up an SSH key, check out our page for this at [SSH](https://sophia-nunez.github.io/guide-to-git/docs/advanced)!
+> Depending on the setup of your computer, you may be able to use different options such as *SSH*. However, this requires additional setup, so we recommed using *HTTPS* for now. If you'd like to learn how to set up an SSH key, check out our page for this at [SSH](https://sophia-nunez.github.io/guide-to-git/docs/advanced/)!
   
 ![Image depicting a Git repository, with the Clone menu expanded. The icon used to get the URL for cloning circled in red](/guide-to-git/assets/images/Clone-url-copy.png)
 *A repository on GitHub with the Clone URL menu expanded. The button used to copy the cloning URL is circled in red.*

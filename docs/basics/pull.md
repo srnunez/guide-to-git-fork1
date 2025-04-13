@@ -53,7 +53,7 @@ To pull, run the following in your terminal:
 $ git pull
 ```
 
-Similar to `git push`, this command may change if you are using branches. Please check our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches/) for more information.
+Similar to `git push`, this command may change if you are using branches. Please check our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html) for more information.
 
 If no commits have been added to the remote repository since your last push, you may see the following output:
 
@@ -113,4 +113,4 @@ Merge made by the 'ort' strategy.
 ```
 
 {: .warning}
-> In the case that changes between the versions conlict, such as edits made to the same line in a file, you may have to handle the merge conflict yourself. This topic is covered in more depth on our [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/MergeConflicts/) page!
+> In the case that changes between the versions conlict, such as edits made to the same line in a file, you may have to handle the merge conflict yourself. This topic is covered in more depth on our [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) page!

@@ -16,7 +16,7 @@ Once you've commited changes, you need to push to send these to your remote repo
 To push your local commits to the remote repository, use the `git push` command. 
 
 {: .warning}
-> You should always [pull](https://sophia-nunez.github.io/guide-to-git/docs/basics/pull) before pushing your changes. This ensures that you can handle any areas where changes made to the code locally conflict with updates made to the remote repository since your last pull.
+> You should always [pull](https://sophia-nunez.github.io/guide-to-git/docs/basics/pull/html) before pushing your changes. This ensures that you can handle any areas where changes made to the code locally conflict with updates made to the remote repository since your last pull.
 >
 >For more information on these conflicts, check out our page on [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/)!
 
@@ -25,7 +25,7 @@ To use `git push`, run the following command in your terminal:
 ```terminal
 $ git push
 ```
-When starting out, you will likely be working in something called the main branch. Due to this, the command above can be used. If you'd like more information on branching and how this may change the `git push` command, check out our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches/).
+When starting out, you will likely be working in something called the main branch. Due to this, the command above can be used. If you'd like more information on branching and how this may change the `git push` command, check out our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html).
 
 Pushing will give you output confirming the push, as given below:
 

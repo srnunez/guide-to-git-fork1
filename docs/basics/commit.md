@@ -33,7 +33,7 @@ Examples of a commit message you may see include:
 The level of detail you add may vary between projects. In some cases, multiple keywords may be needed in the same commit. When getting started, try to commit often enough to not need more than two or three in one commit.
 
 ## How to Commit
-The `git commit` command allows you to commit your **staged** revisions. It is important to use [`git add`](https://sophia-nunez.github.io/guide-to-git/docs/basics/add/) on any files you want to commit *before* using the commit command, as unstaged files will not be inlucded.
+The `git commit` command allows you to commit your **staged** revisions. It is important to use [`git add`](https://sophia-nunez.github.io/guide-to-git/docs/basics/add.html) on any files you want to commit *before* using the commit command, as unstaged files will not be inlucded.
 
 To commit, use the following command in your terminal:
 
@@ -50,4 +50,4 @@ $ git commit -m "Favicon replaced with favicon-2"
 ```
 
 {: .note }
-> At this point, our changes are still confined to the local repository. In order to update the remote repository, make sure to [push](https://sophia-nunez.github.io/guide-to-git/docs/basics/push/) your commits!
+> At this point, our changes are still confined to the local repository. In order to update the remote repository, make sure to [push](https://sophia-nunez.github.io/guide-to-git/docs/basics/push.html) your commits!

@@ -19,7 +19,7 @@ To add all files in the project, use:
 $ git add .
 ```
 
-After using this command, you shouldn't see any additional output in the terminal. If you would like to check the status of your repository and changes, use [`git status`](https://sophia-nunez.github.io/guide-to-git/docs/basics/status/)
+After using this command, you shouldn't see any additional output in the terminal. If you would like to check the status of your repository and changes, use [`git status`](https://sophia-nunez.github.io/guide-to-git/docs/basics/status.html)
 
 {: .note }
 >Using `git add` will add the specified files to the staging area as they are in that moment in time. Further revisions would need to be added again.
