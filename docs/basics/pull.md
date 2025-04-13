@@ -22,7 +22,7 @@ If you've made changes to any code since you last pulled, you want to make sure 
 
 To do this, there are two options:
 
-1. **Commit Before Pulling**
+- **Commit Before Pulling:**
 This is the typical recommendation for saving your changes before pulling. Use `git commit` to take a snapshot of your files and prevent loss of data.
 
 In your terminal, this would use following commands:
@@ -33,7 +33,7 @@ $ git commit -m "message here"
 $ git pull
 ```
 
-2. **Stash Before Pulling**
+- **Stash Before Pulling:**
 Another option is to stash your changes temporarily. This will not create a commit, so this is typically used when you've modified files but are not ready to include them in the version history. 
 
 Stashing will allow you to save your changes and pull without conflicts, overwriting any edits. Using `git stash pop`, you then add your modifications back on afterwards.
