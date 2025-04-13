@@ -1,6 +1,6 @@
 ---
 title: Repo Setup
-parent: Basics
+parent: Intermediate
 nav_order: 3
 ---
 

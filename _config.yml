@@ -20,7 +20,7 @@ defaults:
 callouts:
   warning:
     title: Warning
-    color: red
+    color: yellow
   note:
     title: Note
     color: blue

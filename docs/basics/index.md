@@ -15,6 +15,11 @@ Learn how use Git! Read below for an introduction to the Git environment, or loo
 ## Introduction to Git
 Git is a *version control system*, used to keep track of changes in your code or files over time. This is used for projects to allow developers to modify their files while maintaing a history of each change. If anything goes wrong, the work can be recovered by reverting to a previous version.
 
+{: .note }
+> When using any git commands in your terminal, make sure you are in the workspace for the repository on your computer. This is needed so that the commands can run correctly on the desired project.
+>
+> There are additional arguments you can add when running git commands to circumvent this. However, our guide will assume you are in the correct folder.
+
 ### How Does it Work?
 Git works by letting you make changes in a local repository on your computer, and then save or share those changes by pushing them to a remote repository online.
 
