@@ -1,6 +1,6 @@
 ---
-title: Add
-parent: Basics
+title: Status
+parent: Intermediate
 nav_order: 9
 ---
 Coming soon
