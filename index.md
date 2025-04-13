@@ -3,7 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 ---
-# Basics of Git
+# Our Guide
 {: .no_toc }
 Welcome to our guide to Git! Read below for an introduction to the Git environment, or look at our pages for each command you need to know.
 
