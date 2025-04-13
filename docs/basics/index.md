@@ -18,7 +18,8 @@ Git is a *version control system*, used to keep track of changes in your code or
 ### How Does it Work?
 Git works by letting you make changes in a local repository on your computer, and then save or share those changes by pushing them to a remote repository online.
 
-> 📘 Understanding the difference between local and remote areas is key to using Git effectively.
+{: .note }
+> Understanding the difference between local and remote areas is key to using Git effectively.
 >
 > *Local* refers to everything on your own computer.
 > *Remote* refers to a version of your repository that lives online, often on platforms like GitHub.
@@ -27,7 +28,8 @@ Git tracks changes to your files on your computer - this version of the project 
 
 In general, Git follows a few basic steps that allow your project history to be saved:
 1. Modify code in your local workspace. 
-> 📘 This is in your working directory, which is different from your local repository. Git tracks the difference between these to determine what changes you've made.
+{: .note }
+> This is in your working directory, which is different from your local repository. Git tracks the difference between these to determine what changes you've made.
 2. Stage the changed files to allow Git to track them.
 3. Commit to take a snapshot of the staged files and store these in your local Git repository.
 4. Pull from your remote repository and handle any merge conflicts.
