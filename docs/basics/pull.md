@@ -96,6 +96,9 @@ This is indicating that a merge was done automatically and prompting you to writ
 2. `esc` to enter command mode.
 3. `:wq` to save and exit, or `:q` to exit without saving.
 
+{: .note}
+> The default text editor can be changed using the `git config` command. Check out our page on [Setup](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html) for more information.
+
 With the automatic merge completed, your terminal should contain output similar to the following:
 
 ```terminal
