@@ -4,7 +4,13 @@ parent: Basics
 nav_order: 1
 ---
 # Git Setup
+{: .no_toc }
 When using Git, you'll need to configure your indentity so that any pushes are under your account. Furthermore, using Git in an IDE may require alternate setup or usage.
+
+- TOC
+{:toc}
+
+---
 
 ## Identity Configuration
 This guide will use global modification of your identity. Doing so lets this identity be used between various programs on your computer.
@@ -53,7 +59,6 @@ $ git config --global core.editor "vim"
 There are many popular IDEs used for coding, and each handles Git in a different way. Below are links to the Git setup page for a few popular IDEs:
 
 - **VSCode**<br>
-
 VSCode has built-in support for Git. This means that, if Git is installed on your computer, no additional extensions are needed! Opening a folder that is a Git repository will enable Source Control functions automatically.
 
 To clone in VSCode, opening the VSCode Source Control view with no directory open should display the following:
@@ -70,6 +75,8 @@ You may also install an extension such as GitHub Codespaces. Check out [this pag
 
 - **Eclipse** <br>
 To use Git in Eclipse, an extension is needed. There are many our there, but EGit is typically required for students. To learn how to install EGit in eclipse, check out [this tutorial](https://eclipsesource.com/blogs/tutorials/egit-tutorial/).
+
+---
 
 {: .note}
 > While IDEs may provide special views for using Git, the commands given in this guide can always be used in a terminal or shell such as Git Bash.
