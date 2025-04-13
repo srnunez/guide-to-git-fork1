@@ -1,5 +1,5 @@
 ---
-title: Cloning
+title: Clone
 parent: Basics
 nav_order: 2
 ---
@@ -22,7 +22,7 @@ git clone <repository-url>
 ### Getting the Repository URL
 The URL for a repository can be found on the GitHub page for the repository. In the "Code" tab near the top is a green box labeled **Code**, as pictured below.
 
-![Image depicting a Git repository, with the Code button used to get the URL for cloning circled in red](/guide-to-git/docs/images/Clone-code-button-1.png)
+![Image depicting a Git repository, with the Code button used to get the URL for cloning circled in red](/guide-to-git/assets/images/Clone-code-button-1.png)
 *A repository on GitHub with the button used to get the cloning URL circled in red.*
 
 Clicking the dropdown arrow for this box opens a section that allows you to get the URL for the repository. 
@@ -30,7 +30,7 @@ Clicking the dropdown arrow for this box opens a section that allows you to get 
 {: .note }
 > Depending on the setup of your computer, you may be able to use different options such as *SSH*. However, this requires additional setup, so we recommed using *HTTPS* for now. If you'd like to learn how to set up an SSH key, check out our page for this at [SSH](https://sophia-nunez.github.io/guide-to-git/docs/advanced)!
   
-![Image depicting a Git repository, with the Clone menu expanded. The icon used to get the URL for cloning circled in red](/guide-to-git/docs/images/Clone-url-copy.png)
+![Image depicting a Git repository, with the Clone menu expanded. The icon used to get the URL for cloning circled in red](/guide-to-git/assets/images/Clone-url-copy.png)
 *A repository on GitHub with the Clone URL menu expanded. The button used to copy the cloning URL is circled in red.*
 
 ### Using the Clone Command in Terminal
