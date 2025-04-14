@@ -29,7 +29,7 @@ This is the typical recommendation for saving your changes before pulling. Use `
 
 In your terminal, this would use following commands:
 
-```terminal
+```bash
 $ git add .
 $ git commit -m "message here"
 $ git pull
@@ -42,7 +42,7 @@ Stashing will allow you to save your changes and pull without conflicts, overwri
 
 In your terminal, this would use following commands:
 
-```terminal
+```bash
 $ git stash
 $ git pull
 $ git stash pop
@@ -53,7 +53,7 @@ $ git stash pop
 ## How to Pull
 To pull, run the following in your terminal:
 
-```terminal
+```bash
 $ git pull
 ```
 
@@ -61,14 +61,14 @@ Similar to `git push`, this command may change if you are using branches. Please
 
 If no commits have been added to the remote repository since your last push, you may see the following output:
 
-```terminal
+```bash
 $ git pull
 Already up to date.
 ```
 
 Otherwise, you will see output similar to the following:
 
-```terminal
+```bash
 $ git pull
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.
@@ -88,7 +88,7 @@ Fast-forward
 ### Merge Conflicts
 When pulling, you may get a message about a merge. This is the step where the changes from the remote repository are combined with your local one. In most cases, this is done automatically - you may see a message such as this in your terminal:
 
-``` vim
+```bash
 Merge branch 'main' of https://github.com/sophia-nunez/guide-to-git
 # Please enter a commit message to explain why this merge is necessary,# especially if it merges an updated upstream into a topic branch.     
 #
@@ -107,7 +107,7 @@ This is indicating that a merge was done automatically and prompting you to writ
 
 With the automatic merge completed, your terminal should contain output similar to the following:
 
-```terminal
+```bash
 $ git pull
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.

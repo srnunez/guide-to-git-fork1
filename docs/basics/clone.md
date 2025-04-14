@@ -38,14 +38,14 @@ Clicking the dropdown arrow for this box opens a section that allows you to get 
 ### Using the Clone Command in Terminal
 Once the URL for the repository has been copied, go into your terminal. Use `cd <filepath>` to move into the directory you want the repository to go in. Then, use `git clone <url>`, replacing &lt;url&gt; with the copied URL. Your terminal should look like this:
 
-```terminal
+```bash
 $ cd <filepath>
 $ git clone <URL>
 ```
 
 Running this command should give output similar to the following:
 
-```terminal
+```bash
 $ git clone https://github.com/sophia-nunez/guide-to-git.git
 Cloning into 'guide-to-git'...
 remote: Enumerating objects: 62, done.

@@ -35,14 +35,14 @@ To push your local commits to the remote repository, use the `git push` command.
 
 To use `git push`, run the following command in your terminal:
 
-```terminal
+```bash
 $ git push
 ```
 When starting out, you will likely be working in something called the main branch. Due to this, the command above can be used. If you'd like more information on branching and how this may change the `git push` command, check out our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html).
 
 Pushing will give you output confirming the push, as given below:
 
-```terminal
+```bash
 $ git push
 Enumerating objects: 20, done.
 Counting objects: 100% (20/20), done.

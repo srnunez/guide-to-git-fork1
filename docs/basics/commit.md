@@ -39,12 +39,12 @@ The `git commit` command allows you to commit your **staged** revisions. It is i
 
 To commit, use the following command in your terminal:
 
-```terminal
+```bash
 $ git commit -m "commit message inside quotations here"
 ```
 An example of what this may look like (using a commit from our own repo!) would be:
 
-```terminal
+```bash
 $ git commit -m "Favicon replaced with favicon-2"
 [main 9bc8202] Favicon replaced with favicon-2
  2 files changed, 1 insertion(+), 1 deletion(-)

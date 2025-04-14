@@ -17,13 +17,13 @@ This guide will use global modification of your identity. Doing so lets this ide
 
 To change the name associated with your commits, run the following command in your terminal:
 
-```terminal
+```bash
 $ git config --global user.name "Your username"
 ```
 
 As a student, you may also need to set the email for your identity. This can be done with the following:
 
-```terminal
+```bash
 $ git config --global user.email "youremail@domain.edu"
 ```
 
@@ -36,24 +36,24 @@ $ git config --global user.email "youremail@domain.edu"
 When editing certain files pertaining to push or merge issues, Git opens these in the default text editor for your computer. For most computers, this default is Vi.
 
 To change this default, the general command is:
-```terminal
+```bash
 $ git config --global core.editor "text editor name"
 ```
 
 The text to give for the editor name is not always the editor program name. Included below are the commands for VSCode, Notepad++, and Vim.
 
 - **Visual Studio Code (VSCode):**<br>
-```terminal
+```bash
 $ git config --global core.editor "code --wait"
 ```
 
 - **Notepad++:**<br>
-```terminal
+```bash
 $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 ```
 
 - **Vim:**<br>
-```terminal
+```bash
 $ git config --global core.editor "vim"
 ```
 

@@ -18,8 +18,6 @@ When you’re working on a project, you often want to make changes or try new id
 
 By default, Git starts with one branch, usually called `main`. This is what most beginners or small projects use. When you create a new branch, it copies the current state of the project and lets you build from there.
 
----
-
 ### Terminology
 
 Here are some key terms related to branching:
@@ -29,8 +27,6 @@ Here are some key terms related to branching:
 - **checkout**: The command used to switch between branches.
 - **Merge**: Combines the changes from one branch into another.
 - **Rebase**: Moves commits from one branch onto the end of another, creating a linear history.
-
----
 
 ### When to use Branches
 Branches are useful anytime you want to make changes without affecting the main code:
@@ -48,13 +44,13 @@ When you create a new branch, Git creates a pointer to the current commit. Any n
 Here’s how to create and switch to a new branch:
 
 ```bash
-git checkout -b [branchname]
+$ git checkout -b [branchname]
 ```
 This creates a new branch called feature-branch and switches you to it.
 
 You can see all branches in your repository with:
 ```bash
-git branch
+$ git branch
 ```
 
 You can also check all branches on the GitHub repository page. This can be found in the dropdown pictured below:
@@ -67,20 +63,20 @@ Once you've completed making changes and are done with the branch, you can eithe
 To merge, using the following command: 
 
 ```bash
-git checkout main
-git merge [branchname]
+$ git checkout main
+$ git merge [branchname]
 ```
 
 To rebase your changes, use:
 ```bash
-git checkout main
-git rebase [branchname]
+$ git checkout main
+$ git rebase [branchname]
 ```
 
 Following either of these commands, push your updated branch using:
 
 ```bash
-git push origin [branchname]
+$ git push origin [branchname]
 ```
 
 {: .note}

@@ -11,13 +11,13 @@ Once files have been modified in your workspace, you'll need to add these revisi
 ## How to Add
 When using the `git add` command, you can either add files individually, or all at once. To add one file, do the following in your terminal:
 
-```terminal
+```bash
 $ git add [filename]
 ```
 
 To add all files in the project, use:
 
-```terminal
+```bash
 $ git add .
 ```
 
