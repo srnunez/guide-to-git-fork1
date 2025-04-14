@@ -78,6 +78,7 @@ Here are some common types of commit references:
   ```bash
   $ git log
   ```
+  Included in this output will be a line starting with `commit` - the text after that is the commit SHA. An example SHA might be `d94b5f7ec7c6d7602c78a5e9b8a5b8c94d093eda`.
 
 - **Branch name**
     You can also use a branch name to reference the latest commit on that branch (e.g., `main` or `feature`).
