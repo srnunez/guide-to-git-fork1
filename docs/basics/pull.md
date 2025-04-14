@@ -12,10 +12,12 @@ Pulling updates your local repository with any new commits on the remote reposit
 
 ---
 
-## How it Works
+## Introduction
 The `git pull` command combines fetching and merging - topics covered in our Advanced section. Essentially, it takes new commits from the remote repository and brings them to your computer by combining the local and new versions together. 
 
 You should always pull before starting to make changes and before pushing in order to reduce any conflicting edits.
+
+---
 
 ## Before Pulling
 If you've made changes to any code since you last pulled, you want to make sure to preserve your current revisions before pulling. This will prevent any overwriting or other issues.
@@ -45,6 +47,8 @@ $ git stash
 $ git pull
 $ git stash pop
 ```
+
+---
 
 ## How to Pull
 To pull, run the following in your terminal:
@@ -79,7 +83,9 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-## Merge Conflicts
+---
+
+### Merge Conflicts
 When pulling, you may get a message about a merge. This is the step where the changes from the remote repository are combined with your local one. In most cases, this is done automatically - you may see a message such as this in your terminal:
 
 ``` vim

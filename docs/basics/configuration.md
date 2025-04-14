@@ -30,6 +30,8 @@ $ git config --global user.email "youremail@domain.edu"
 {: .note}
 > Identity can also be set per project. This can be done by running the command in the working directoy for your repository and excluding the `--config` argument. However, this needs to be done for each project and is not recommended if working primarily from one account.
 
+---
+
 ## Default Editor Configuration
 When editing certain files pertaining to push or merge issues, Git opens these in the default text editor for your computer. For most computers, this default is Vi.
 
@@ -54,6 +56,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
 ```terminal
 $ git config --global core.editor "vim"
 ```
+
+---
 
 ## Using Git in IDEs
 There are many popular IDEs used for coding, and each handles Git in a different way. Below are links to the Git setup page for a few popular IDEs:

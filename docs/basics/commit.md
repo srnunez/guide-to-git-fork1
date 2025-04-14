@@ -32,6 +32,8 @@ Examples of a commit message you may see include:
 
 The level of detail you add may vary between projects. In some cases, multiple keywords may be needed in the same commit. When getting started, try to commit often enough to not need more than two or three in one commit.
 
+---
+
 ## How to Commit
 The `git commit` command allows you to commit your **staged** revisions. It is important to use [`git add`](https://sophia-nunez.github.io/guide-to-git/docs/basics/add.html) on any files you want to commit *before* using the commit command, as unstaged files will not be inlucded.
 

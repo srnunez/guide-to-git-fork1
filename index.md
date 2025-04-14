@@ -20,6 +20,8 @@ Git is a *version control system*, used to keep track of changes in your code or
 >
 > There are additional arguments you can add when running git commands to circumvent this. However, our guide will assume you are in the correct folder.
 
+---
+
 ### How Does it Work?
 Git works by letting you make changes in a local repository on your computer, and then save or share those changes by pushing them to a remote repository online.
 
@@ -40,16 +42,18 @@ In general, Git follows a few basic steps that allow your project history to be 
 4. Pull from your remote repository and handle any merge conflicts.
 5. Push your local repository data to the remote repository.
 
+---
+
 ### Terminology
 While working with Git, there are some important terms to remember:
-- Repository: A project folder that Git uses to track changes. This contains your files and the history of your changes.
-    - Local repository: The version of your repository stored on your own computer.
-    - Remote repository: A version of you repository stored on the internet (e.g. GitHub).
-- Sections: Each Git Project is split into three main sections. These are different parts of the project.
-    - Working directory: Where your project files live on your computer. These are the files that you see and edit.
-    - Staging area (index): A holding area to prepare changes before commiting. This tells Git which files you want to the changes of.
-    - .git directory (repository): A local, hidden folder where Git stores all of your commits and version history. This is what makes your folder a Git repository. When cloning, this is what is copied.
-- States: The files in your project move through three different states.
-    - Modified: The file has been changed but not staged. Git has not been told to track the changes for this file yet.
-    - Staged: The changed file has been marked to go into your next commit in its current version.
-    - Committed: The change has been saved in Git's history and is now part of the local repository.
+- **Repository**: A project folder that Git uses to track changes. This contains your files and the history of your changes.
+    - **Local repository**: The version of your repository stored on your own computer.
+    - **Remote repository**: A version of you repository stored on the internet (e.g. GitHub).
+- **Sections**: Each Git Project is split into three main sections. These are different parts of the project.
+    - **Working directory**: Where your project files live on your computer. These are the files that you see and edit.
+    - **Staging area (index)**: A holding area to prepare changes before commiting. This tells Git which files you want to the changes of.
+    - **.git directory (repository)**: A local, hidden folder where Git stores all of your commits and version history. This is what makes your folder a Git repository. When cloning, this is what is copied.
+- **States**: The files in your project move through three different states.
+    - **Modified**: The file has been changed but not staged. Git has not been told to track the changes for this file yet.
+    - **Staged**: The changed file has been marked to go into your next commit in its current version.
+    - **Committed**: The change has been saved in Git's history and is now part of the local repository.

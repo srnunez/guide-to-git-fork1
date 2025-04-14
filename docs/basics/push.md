@@ -12,6 +12,19 @@ Once you've commited changes, you need to push to send these to your remote repo
 
 ---
 
+## Commit History on GitHub
+To view the commit history on GitHub, you can click the clock icon on the right side of the header for the repository files:
+
+![Image of the Guide to Git repository page with the Commit History icon circled in red](/guide-to-git/assets/images/Push-commit-history.png)
+
+This will bring you to a page of all commits to the repo, with the commit message displayed:
+
+![Image of the Guide to Git commit history](/guide-to-git/assets/images/Push-commit-history-page.png)
+
+Clicking on any of these commits will show you a list of the files changed in that commit and what edits were made. From here, you can also view all files in the repository at that point in the version history!
+
+---
+
 ## How to Push
 To push your local commits to the remote repository, use the `git push` command. 
 
@@ -45,13 +58,4 @@ As noted above, pulling before you push is important. If you recieve an error me
 
 Once you get the output indicating the push was a success, your commits should now appear on the page for your repository on GitHub!
 
-## Commit History on GitHub
-To view the commit history on GitHub, you can click the clock icon on the right side of the header for the repository files:
-
-![Image of the Guide to Git repository page with the Commit History icon circled in red](/guide-to-git/assets/images/Push-commit-history.png)
-
-This will bring you to a page of all commits to the repo, with the commit message displayed:
-
-![Image of the Guide to Git commit history](/guide-to-git/assets/images/Push-commit-history-page.png)
-
-Clicking on any of these commits will show you a list of the files changed in that commit and what edits were made. From here, you can also view all files in the repository at that point in the version history!
+---

@@ -19,6 +19,8 @@ The command for cloning is:
 git clone <repository-url>
 ```
 
+---
+
 ### Getting the Repository URL
 The URL for a repository can be found on the GitHub page for the repository. In the "Code" tab near the top is a green box labeled **Code**, as pictured below.
 
@@ -58,6 +60,8 @@ After running `git clone`, there should be a new folder inside your current one 
 
 ### Alternative uses of the URL
 In some IDEs, you may be able to clone using a built-in view or function. For more information on this, check out our page on [Git in IDEs](https://sophia-nunez.github.io/guide-to-git/docs/basics/)!
+
+---
 
 ## Summary
 Cloning is the first step in working with a Git project that’s stored remotely. Using `git clone`, you bring down a complete copy of the repository — including all files, branches, and history — onto your own computer as a local repository. From here, you can explore the code, make changes, and start using Git commands like add, commit, and push. 
