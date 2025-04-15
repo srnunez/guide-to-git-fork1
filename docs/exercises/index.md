@@ -78,13 +78,37 @@ Use your terminal for this exercise to practice the basic commands of Git!
 3. Run `git commit -m “Added hello.txt”
 </details>
 
-## Exercise 4: Merge Conflicts (requires a partner)
+## Exercise 4: Merge Conflicts (solo)
+Create a repo for yourself. Add a file called conflict.txt, and then get a merge conflict to occur by utilizing branching. Bonus points for solving the conflict!
+
+<details markdown="block">
+
+<summary>💡 Show Solution</summary>
+ Edit the same line in conflict.txt in two seperate branches. Commit the changes in each branch, and then try to merge them. 
+ 
+```bash
+git add conflict.txt
+git commit -m "conflicting edit"
+```
+You should see something like this when you try to merge the two branches
+```bash
+$ git merge <branchName>
+Auto-merging conflict.txt
+CONFLICT (content): Merge conflict in conflict.txt
+Automatic merge failed; fix conflicts and then commit the result.
+```
+To fix the conflict, you can either edit conflict.txt in your IDE or in the command line. This process is demonstrated in detail in the example section of Merge Conflicts, which can be accessed through the Interrmediate tab in the sidebar.
+
+</details>
+
+## Exercise 4: Merge Conflicts (partner)
 Create a repo for you and your partner. Add a file called conflict.txt, and then get a merge conflict to occur. Bonus points for solving the conflict!
 
 <details markdown="block">
 
 <summary>💡 Show Solution</summary>
  Have you and a partner both clone the same repo and edit the same line in conflict.txt. Ask your partner to push their changes. Now, you try to push your changes via
+ 
 ```bash
 git add conflict.txt
 git commit -m "conflicting edit"
@@ -146,6 +170,7 @@ This exercise can be done on GitHub or from the command line. We recommend tryin
 Create a repo. Have a partner fork your repo and submit a PR.
 
 <details markdown="block">
+<<<<<<< HEAD
 <summary> Show Instructions</summary>
 1. Fork the repository
 2. Clone this fork
@@ -155,7 +180,11 @@ Create a repo. Have a partner fork your repo and submit a PR.
 </details>
 
 <details markdown="block">
+=======
+ 
+>>>>>>> bf8a352bfc94f3e57cb3eba5b0d6143268a45b07
 <summary>💡 Show Solution</summary>
+
 1. Have your partner fork your repo on Github
 2. Have your partner clone their forked repo using `git clone <their repo url>`.
 3. Your partner then must create a new branch using `git checkout -b update(or any name)`
