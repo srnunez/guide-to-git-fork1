@@ -113,7 +113,7 @@ Create a repo for you and your partner. Add a file called conflict.txt, and then
 git add conflict.txt
 git commit -m "conflicting edit"
 ```
-You should see something like this
+You should see something like this:
 ```bash
 Auto-merging conflict.txt
 CONFLICT (content): Merge conflict in conflict.txt
@@ -170,7 +170,6 @@ This exercise can be done on GitHub or from the command line. We recommend tryin
 Create a repo. Have a partner fork your repo and submit a PR.
 
 <details markdown="block">
-<<<<<<< HEAD
 <summary> Show Instructions</summary>
 1. Fork the repository
 2. Clone this fork
@@ -180,9 +179,6 @@ Create a repo. Have a partner fork your repo and submit a PR.
 </details>
 
 <details markdown="block">
-=======
- 
->>>>>>> bf8a352bfc94f3e57cb3eba5b0d6143268a45b07
 <summary>💡 Show Solution</summary>
 
 1. Have your partner fork your repo on Github
@@ -198,5 +194,3 @@ git push origin update
 6. Have your partner go on Github and submit a PR
 7. You should see their Pull Request when you enter your repo on GitHub!
 </details>
-
-
