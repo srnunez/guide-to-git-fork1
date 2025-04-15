@@ -75,6 +75,7 @@ Create a repo for you and your partner. Add a file called conflict.txt, and then
 
 <summary>💡 Show Solution</summary>
  Have you and a partner both clone the same repo and edit the same line in conflict.txt. Ask your partner to push their changes. Now, you try to push your changes via
+ 
 ```bash
 git add conflict.txt
 git commit -m "conflicting edit"
