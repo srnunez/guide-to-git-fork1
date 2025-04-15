@@ -6,6 +6,8 @@
 </table>
 Welcome to our Guide to Git! This repo was created in Spring 2025. Read below for how you can use the resources on this page.
 
+---
+
 ## Webpage
 Visit our website [here](https://guide-to-git.github.io/students-guide-to-git/) to read about Git and various use cases. Our guide is 
 designed for beginners, especially students working on projects for the first time. 
