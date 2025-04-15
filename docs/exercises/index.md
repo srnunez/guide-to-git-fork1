@@ -45,7 +45,30 @@ Create a file called `hello.txt`, stage it, and push it to your repo
 3. Run `git commit -m “Added hello.txt”
 </details>
 
-## Exercise 4: Merge Conflicts (requires a partner)
+## Exercise 4: Merge Conflicts (solo)
+Create a repo for yourself. Add a file called conflict.txt, and then get a merge conflict to occur by utilizing branching. Bonus points for solving the conflict!
+
+<details markdown="block">
+
+<summary>💡 Show Solution</summary>
+ Edit the same line in conflict.txt in two seperate branches. Commit the changes in each branch, and then try to merge them. 
+ 
+```bash
+git add conflict.txt
+git commit -m "conflicting edit"
+```
+You should see something like this when you try to merge the two branches.
+```bash
+$ git merge <branchName>
+Auto-merging conflict.txt
+CONFLICT (content): Merge conflict in conflict.txt
+Automatic merge failed; fix conflicts and then commit the result.
+```
+To fix the conflict, you can either edit conflict.txt in your IDE or in the command line. This process is demonstrated in detail in the example section of Merge Conflicts, which can be accessed through the Interrmediate tab in the sidebar.
+
+</details>
+
+## Exercise 4: Merge Conflicts (partner)
 Create a repo for you and your partner. Add a file called conflict.txt, and then get a merge conflict to occur. Bonus points for solving the conflict!
 
 <details markdown="block">
@@ -56,7 +79,7 @@ Create a repo for you and your partner. Add a file called conflict.txt, and then
 git add conflict.txt
 git commit -m "conflicting edit"
 ```
-You should see something like this
+You should see something like this.
 ```bash
 Auto-merging conflict.txt
 CONFLICT (content): Merge conflict in conflict.txt
