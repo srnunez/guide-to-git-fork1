@@ -200,15 +200,15 @@ Create a repo. Have a partner fork your repo and submit a pull request.
 
 <details markdown="block">
 <summary> Show Instructions</summary>
-1. Fork the repository
+    1. Fork the repository
     
-2. Clone this fork
-   
-3. Edit a file in the repository
-   
-4. Commit and push these changes
- 
-5. Submit a pull request and check GitHub
+    2. Clone this fork
+    
+    3. Edit a file in the repository
+    
+    4. Commit and push these changes
+    
+    5. Submit a pull request and check GitHub
 </details>
 
 <details markdown="block">
