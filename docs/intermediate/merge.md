@@ -203,7 +203,7 @@ $ git commit
 camde@CMK-NCSU-Laptop MINGW64 ~/merge-practice (master)
 $ cat prac.txt
 practicing
-changed
+change
 conflicts
 ```
 
