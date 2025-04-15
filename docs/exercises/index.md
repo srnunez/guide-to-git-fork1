@@ -11,7 +11,14 @@ Here are some exercises to apply what you've learned from the guide! You can wor
 ---
 
 ## Exercise 0: Configure Git
-Configure your username and email, then display this info.
+Set up your Git identity! This includes materials from our [Setup](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html#identity-configuration) page.
+
+<details markdown="block">
+<summary Show Instructions</summary>
+1. Configure your username.
+2. Configure your email.
+3. Display these.
+</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -24,11 +31,11 @@ git config --list
 </details>
 
 ## Exercise 1: Make your repository
-Create a new Git repository to track your work on GitHub. Do this exercise from the GitHub page (we're NOT working from the terminal quite yet!).
+Create a private Git repository to track your work on GitHub. This uses content from our [Privacy](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/privacy.html#repository-privacy) page. Do this exercise from the GitHub page (we're NOT working from the terminal quite yet!).
 
 <details markdown="block">
-<summary>💡 Show Instructions</summary>
-1. On GitHub, create a repository named `practice`.
+<summary Show Instructions</summary>
+1. On GitHub, create a private repository named `practice`.
 2. Add a file named `exercise1.txt`.
 3. Commit the changes.
 </details>
@@ -46,7 +53,14 @@ Create a new Git repository to track your work on GitHub. Do this exercise from 
 
 
 ## Exercise 2: Clone repo
-Clone your practice repo and enter the workspace so you can edit its contents locally.
+Clone your practice repo and enter the workspace so you can edit its contents locally. This exercise references our [Clone](https://sophia-nunez.github.io/guide-to-git/docs/basics/clone.html) page!
+
+<details markdown="block">
+<summary Show Instructions</summary>
+1. On GitHub, find the cloning URL for your repository.
+2. Clone your repository in your command line.
+3. Change to the repository folder to edit the contents.
+</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -59,7 +73,7 @@ cd [repo-name]
 </details>
 
 ## Exercise 3: Push Changes
-Use your terminal for this exercise to practice the basic commands of Git!
+Make and edit a file, and add this to your remote repository. Use your terminal for this exercise to practice the [basic commands](https://sophia-nunez.github.io/guide-to-git/docs/basics/) of Git!
 
 <details markdown="block">
 <summary> Show Instructions</summary>
@@ -75,64 +89,79 @@ Use your terminal for this exercise to practice the basic commands of Git!
     echo "exercise 3!" > hello.txt
     ```
 2. Run `git add hello.txt`
-3. Run `git commit -m “Added hello.txt”
+3. Run `git commit -m “Added hello.txt”`
 </details>
 
 ## Exercise 4: Merge Conflicts (solo)
-Create a repo for yourself. Add a file called conflict.txt, and then get a merge conflict to occur by utilizing branching. Bonus points for solving the conflict!
+Create a repo for yourself. Add a file called conflict.txt, and then get a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) to occur. Bonus points for solving the conflict!
 
 <details markdown="block">
+<summary Show Instructions</summary>
+1. In your practice repository, add a file called `conflict.txt` and push this to the remote.
+2. Cause a merge conflict by editing files on GitHub, then locally.
+3. Resolve the conflict and push your local changes.
+</details>
 
+<details markdown="block">
 <summary>💡 Show Solution</summary>
- Edit the same line in conflict.txt in two seperate branches. Commit the changes in each branch, and then try to merge them. 
- 
-```bash
-git add conflict.txt
-git commit -m "conflicting edit"
-```
-You should see something like this when you try to merge the two branches
-```bash
-$ git merge <branchName>
-Auto-merging conflict.txt
-CONFLICT (content): Merge conflict in conflict.txt
-Automatic merge failed; fix conflicts and then commit the result.
-```
-To fix the conflict, you can either edit conflict.txt in your IDE or in the command line. This process is demonstrated in detail in the example section of Merge Conflicts, which can be accessed through the Interrmediate tab in the sidebar.
-
+ 1. After pushing `conflict.txt`, open this file on GitHub editor by clicking the pencil icon.
+ 2. Edit the file on GitHub, then click the green **Commit changes** button.
+ 3. Without pulling, edit the same lines of `conflict.txt` locally from your editor.
+ 3. Commit the changes using `git add .` and `git commit -m "message here"`:
+    ```bash
+    git add conflict.txt
+    git commit -m "Updated conflict.txt with conflicting edit"
+    ```
+ 4. Attempt to pull using `git pull`. You should see something like this:
+    ```bash
+    $ git pull
+    Auto-merging conflict.txt
+    CONFLICT (content): Merge conflict in conflict.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+    ```
+5. Fix the conflict by editing `conflict.txt` in either your IDE or in the command line. This process is demonstrated in detail in the example section of [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html).
 </details>
 
 ## Exercise 4: Merge Conflicts (partner)
-Create a repo for you and your partner. Add a file called conflict.txt, and then get a merge conflict to occur. Bonus points for solving the conflict!
+Create a repository for you and your partner, or use the `practice` one. Cause a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) and try to resolve it. Bonus points for solving the conflict!
 
 <details markdown="block">
+<summary Show Instructions</summary>
+1. Have you and your partner clone the same repository.
+2. Add a file called conflict.txt.
+3. Have both people edit the file to get a merge conflict to occur.
+4. Push each person's change and resolve the conflict.
+</details>
 
+<details markdown="block">
 <summary>💡 Show Solution</summary>
- Have you and a partner both clone the same repo and edit the same line in conflict.txt. Ask your partner to push their changes. Now, you try to push your changes via
+ 1. Have you and a partner both clone the same repo and edit the same line in conflict.txt locally.
+ 2. Ask your partner to push their changes. Now, you try to push your changes via:
  
-```bash
-git add conflict.txt
-git commit -m "conflicting edit"
-```
-You should see something like this:
-```bash
-Auto-merging conflict.txt
-CONFLICT (content): Merge conflict in conflict.txt
-Automatic merge failed; fix conflicts and then commit the result.
-```
-To fix the conflict, you can either edit conflict.txt in your IDE, or try the following commands
-```bash
-# accepting their changes
-git merge --strategy-option theirs
-```
-Or 
-```bash
-# keeping our changes
-Git merge –strategy-option ours
-```
+    ```bash
+    git add conflict.txt
+    git commit -m "conflicting edit"
+    ```
+    You should see something like this:
+    ```bash
+    Auto-merging conflict.txt
+    CONFLICT (content): Merge conflict in conflict.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+    ```
+2. To fix the conflict, you can either edit conflict.txt in your IDE, or try the following commands:
+    ```bash
+    # accepting their changes
+    git merge --strategy-option theirs
+    ```
+    Or 
+    ```bash
+    # keeping our changes
+    Git merge –strategy-option ours
+    ```
 </details>
 
 ## Exercise 5: Create a branch for a repo and create a PR
-Create a repo, or go to your `practice` one, and practice using branches.
+Create a repo, or go to your `practice` one, and practice using branches. This refernces our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html)!
 
 <details markdown="block">
 <summary> Show Instructions</summary>
@@ -167,7 +196,7 @@ This exercise can be done on GitHub or from the command line. We recommend tryin
 </details>
 
 ## Exercise 6: Fork a repo and create a PR (requires a partner)
-Create a repo. Have a partner fork your repo and submit a PR.
+Create a repo. Have a partner fork your repo and submit a pull request.
 
 <details markdown="block">
 <summary> Show Instructions</summary>
