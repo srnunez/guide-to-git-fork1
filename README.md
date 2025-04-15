@@ -19,7 +19,4 @@ The **Advanced** section is made for more complicated topics, such as branches a
 
 We also have a **Troubleshooting** section focused on navigating situations when things go wrong. If you ever run into issues with file changes, check here for more information.
 
----
-
-## Exercises
-In addition to our website, check out the **Exercises** folder in the repo for practice scenarios. Work on handling merge conflicts and forking repos using our tutorials. If you ever get stuck, each scenario has an associated solution for you to check out!
+Our last section is the Exercises tab. Check out this page for practice scenarios. Work on handling merge conflicts and forking repos using our tutorials - if you ever get stuck, each scenario has an associated solution for you to check out!
