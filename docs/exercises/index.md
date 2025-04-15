@@ -201,25 +201,34 @@ Create a repo. Have a partner fork your repo and submit a pull request.
 <details markdown="block">
 <summary> Show Instructions</summary>
 1. Fork the repository
+    
 2. Clone this fork
+   
 3. Edit a file in the repository
-5. Commit and push these changes
-6. Submit a pull request and check GitHub
+   
+4. Commit and push these changes
+ 
+5. Submit a pull request and check GitHub
 </details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
 
 1. Have your partner fork your repo on Github
+ 
 2. Have your partner clone their forked repo using `git clone <their repo url>`.
+ 
 3. Your partner then must create a new branch using `git checkout -b update(or any name)`
+ 
 4. Have your partner edit a file in their local repo, for example hello.txt
-5. Have your partner commit these changes via 
+ 
+5. Have your partner commit these changes via
 ```bash
 git add hello.txt
 git commit -m "Changed hello.txt"
 git push origin update
 ```
 6. Have your partner go on Github and submit a PR
+   
 7. You should see their Pull Request when you enter your repo on GitHub!
 </details>
