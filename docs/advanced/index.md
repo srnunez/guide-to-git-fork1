@@ -1,7 +1,7 @@
 ---
 title: Advanced
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 # Advanced Topics of Git
 {: .no_toc }
