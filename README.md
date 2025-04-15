@@ -1,3 +1,4 @@
+![The Guide to Git logo!](/assets/images/gtg-2.png)
 # Guide to Git for Student Projects
 
 Welcome to our Guide to Git! This repo was created in Spring 2025. Read below for how you can use the resources on this page.
