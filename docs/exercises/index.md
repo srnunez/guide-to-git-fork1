@@ -102,7 +102,9 @@ Git merge –strategy-option ours
 Create a repo. Have a partner fork your repo and submit a PR.
 
 <details markdown="block">
+ 
 <summary>💡 Show Solution</summary>
+
 1. Have your partner fork your repo on Github
 2. Have your partner clone their forked repo using `git clone <their repo url>`.
 3. Your partner then must create a new branch using `git checkout -b update(or any name)`
