@@ -1,7 +1,7 @@
 ---
 title: Rebase
 parent: Advanced
-nav_order: 2
+nav_order: 3
 ---
 # Git Rebase
 {: .no_toc}
