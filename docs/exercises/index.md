@@ -14,7 +14,7 @@ Here are some exercises to apply what you've learned from the guide! You can wor
 Set up your Git identity! This includes materials from our [Setup](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html#identity-configuration) page.
 
 <details markdown="block">
-<summary Show Instructions</summary>
+<summary> Show Instructions </summary>
 1. Configure your username.
 2. Configure your email.
 3. Display these.
@@ -34,7 +34,7 @@ git config --list
 Create a private Git repository to track your work on GitHub. This uses content from our [Privacy](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/privacy.html#repository-privacy) page. Do this exercise from the GitHub page (we're NOT working from the terminal quite yet!).
 
 <details markdown="block">
-<summary Show Instructions</summary>
+<summary>Show Instructions</summary>
 1. On GitHub, create a private repository named `practice`.
 2. Add a file named `exercise1.txt`.
 3. Commit the changes.
@@ -56,7 +56,7 @@ Create a private Git repository to track your work on GitHub. This uses content 
 Clone your practice repo and enter the workspace so you can edit its contents locally. This exercise references our [Clone](https://sophia-nunez.github.io/guide-to-git/docs/basics/clone.html) page!
 
 <details markdown="block">
-<summary Show Instructions</summary>
+<summary>Show Instructions</summary>
 1. On GitHub, find the cloning URL for your repository.
 2. Clone your repository in your command line.
 3. Change to the repository folder to edit the contents.
@@ -96,7 +96,7 @@ Make and edit a file, and add this to your remote repository. Use your terminal 
 Create a repo for yourself. Add a file called conflict.txt, and then get a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) to occur. Bonus points for solving the conflict!
 
 <details markdown="block">
-<summary Show Instructions</summary>
+<summary>Show Instructions</summary>
 1. In your practice repository, add a file called `conflict.txt` and push this to the remote.
 2. Cause a merge conflict by editing files on GitHub, then locally.
 3. Resolve the conflict and push your local changes.
@@ -126,7 +126,7 @@ Create a repo for yourself. Add a file called conflict.txt, and then get a [merg
 Create a repository for you and your partner, or use the `practice` one. Cause a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) and try to resolve it. Bonus points for solving the conflict!
 
 <details markdown="block">
-<summary Show Instructions</summary>
+<summary>Show Instructions</summary>
 1. Have you and your partner clone the same repository.
 2. Add a file called conflict.txt.
 3. Have both people edit the file to get a merge conflict to occur.
@@ -163,6 +163,8 @@ Create a repository for you and your partner, or use the `practice` one. Cause a
 ## Exercise 5: Create a branch for a repo and create a PR
 Create a repo, or go to your `practice` one, and practice using branches. This refernces our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html)!
 
+This exercise can be done on GitHub or from the command line. We recommend trying both options - just make two separate files!
+
 <details markdown="block">
 <summary> Show Instructions</summary>
 1. Create a branch called `exercise-5`.
@@ -170,8 +172,6 @@ Create a repo, or go to your `practice` one, and practice using branches. This r
 3. Commit and push your changes.
 4. Submit a pull request to merge `exercise-5` into main.
 </details>
-
-This exercise can be done on GitHub or from the command line. We recommend trying both options - just make two separate files!
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
