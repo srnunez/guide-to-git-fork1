@@ -57,7 +57,7 @@ Create a repo for yourself. Add a file called conflict.txt, and then get a merge
 git add conflict.txt
 git commit -m "conflicting edit"
 ```
-You should see something like this when you try to merge the two branches.
+You should see something like this when you try to merge the two branches
 ```bash
 $ git merge <branchName>
 Auto-merging conflict.txt
@@ -79,7 +79,7 @@ Create a repo for you and your partner. Add a file called conflict.txt, and then
 git add conflict.txt
 git commit -m "conflicting edit"
 ```
-You should see something like this.
+You should see something like this
 ```bash
 Auto-merging conflict.txt
 CONFLICT (content): Merge conflict in conflict.txt
